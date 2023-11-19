@@ -1,0 +1,101 @@
+
+header {
+    background-color: #444;
+    color: #eee;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar a {
+    color: #eee;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Styles pour le contenu principal */
+main {
+    padding-top: 60px; /* Ajustement pour éviter que le contenu soit caché par le header */
+}
+
+.competences-article {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+
+.competences-article h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #111; /* Couleur de fond du tableau */
+    color: #eee; /* Couleur du texte dans le tableau */
+}
+
+table th,
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #333; /* Couleur des bordures entre les cellules */
+}
+
+table th {
+    background-color: #222; /* Couleur de fond pour les en-têtes de colonnes */
+    color: #eee;
+}
+
+/* Styles pour le footer */
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #eee;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+.article{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+
+#wo{
+    display: flex;
+    justify-content: center;
+}
