@@ -129,7 +129,6 @@ footer {
     background-color: #555;
     color: #eee;
     padding: 10px;
-    position:fixed;
+    
     bottom: 0;
-    width: 100%;
 }
