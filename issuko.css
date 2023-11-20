@@ -57,12 +57,11 @@ body {
     margin-bottom: 20px;
 }
 
-/* ... Vos styles existants ... */
-
 #quisuis-je {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px; /* Ajout d'un padding en bas pour éviter le chevauchement avec le footer */
 }
 
 .articleDeLaccueil {
@@ -75,8 +74,6 @@ body {
     color: #eee;
     text-align: center;
 }
-
-
 
 @keyframes floatUpDown {
     0% {
@@ -124,11 +121,14 @@ body {
     text-align: center;
     margin-bottom: 5px;
 }
-footer {
+
+.footer {
     text-align: center;
     background-color: #555;
     color: #eee;
-    padding: 10px;
-    
+    padding: 10px;  
     bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999; /* Assure que le footer soit au-dessus du reste */
 }
